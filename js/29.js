@@ -5,7 +5,7 @@
 const heading = document.querySelector(".heading");
 
 // querySelectorAll selects all matching elements with the specified selector
-const links2 = document.querySelectorAll(".navegation a"); // Selects all <a> elements within '.navegation'
+const links2 = document.querySelectorAll(".navigation a"); // Selects all <a> elements within '.navigation'
 
 // Update the text content of the 'heading' element
 heading.textContent = 'Un nuevo heading...';
@@ -18,4 +18,4 @@ inputName.value = 'Un nuevo valor';
 console.log(links2);
 
 // Update the text content of each link element in 'links2', starting with 'Nuevo enlace 1' up to 'Nuevo enlace 4'
-links2.forEach((navegation, i) => navegation.textContent = `Nuevo enlace ${i + 1}`);
+links2.forEach((navigation, i) => navigation.textContent = `Nuevo enlace ${i + 1}`);
